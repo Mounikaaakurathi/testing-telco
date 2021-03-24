@@ -1,15 +1,18 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "vnetAddressPrefix": {
-      "value": "172.16.0.0/22"
-    },
-    "servicePrincipalClientId": {
-      "value": ""
-    },
-    "servicePrincipalClientSecret": {
-      "value": ""
-    }
-  }
+	"$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"vnetAddressPrefix": {
+			"value": "192.167.16.0/22"
+		},
+		"servicePrincipalClientId": {
+			"value": ""
+		},
+		"servicePrincipalClientSecret": {
+			"value": ""
+		},
+		"kubernetesVersion": {
+			"value": "1.18.14"
+		}
+	}
 }
